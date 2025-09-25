@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+
+<body
+  class="bg-gradient-to-br from-slate-900 via-cyan-800 to-teal-600 min-h-screen flex items-center justify-center font-sans">
+
+  <!-- Main Container -->
+  <div class="w-[95%] max-w-2xl p-6 rounded-2xl bg-gray-100 shadow-2xl">
+    <!-- Header -->
+    <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">📝 My To-Do List</h1>
+
+    <!-- Input Section -->
+    <div class="space-y-4">
+      <!-- Task Name -->
+      <input id="taskName" type="text" placeholder="Task Name"
+        class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-teal-500 outline-none" />
+
+      
+      <div class="flex gap-3">
+        <div class="flex-1">
+          <select id="taskCategory"
+            class="w-full px-3 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-teal-500 outline-none">
+            <option selected disabled class="text-gray-400">Category</option>
+            <option class="text-black">Work</option>
+            <option class="text-black">Study</option>
+            <option class="text-black">Personal</option>
+          </select>
+        </div>
+        <div class="flex-1">
+          <select id="taskPriority"
+            class="w-full px-3 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-teal-500 outline-none">
+            <option selected disabled style="color: #9ca3af !important;">Priority</option>
+            <option value="green" class="text-black">Low</option>
+            <option value="yellow" class="text-black">Medium</option>
+            <option value="red" class="text-black">High</option>
+          </select>
+        </div>
+      </div>
+
+
+      <!-- Description -->
+      <textarea id="taskDesc" placeholder="Description (optional)..."
+        class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-teal-500 outline-none"></textarea>
+
+      <!-- Add Button -->
+      <button onclick="addTask()"
+        class="w-full bg-gradient-to-r from-teal-600 to-cyan-600 text-white font-semibold py-2 rounded-lg hover:scale-105 transition">➕
+        Add Task</button>
+    </div>
+
+    <!-- Task List -->
+    <ul id="taskList" class="mt-6 space-y-4"></ul>
+  </div>
+</body>
+
+</html>
