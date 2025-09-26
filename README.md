@@ -43,7 +43,7 @@ This project was created as part of my **Web Development Internship at SkillCraf
 ---
 
 ## 🔗 Live Demo
-https://devansh-soni1.github.io/SCT_WD_4/src/
+[GitHub Live preview](https://devansh-soni1.github.io/SCT_WD_4/src/)
 
 ---
 
