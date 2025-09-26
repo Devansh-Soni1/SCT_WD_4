@@ -1,7 +1,6 @@
 # 📝 To-Do List App
 
-This is my **4th Web Development Internship project** at **SkillCraft Technology**.  
-It’s a responsive and interactive **To-Do List Application** built with **HTML, Tailwind CSS, and JavaScript**.
+A responsive and interactive **To-Do List Application** built with **HTML, Tailwind CSS, and JavaScript**.
 
 ---
 
@@ -33,13 +32,9 @@ It’s a responsive and interactive **To-Do List Application** built with **HTML
 
 ---
 
-## 🎯 Internship
-This project was created as part of my **Web Development Internship at SkillCraft Technology**.
-
----
-
 ## 📸 Screenshots
 <img src="./src/ss.png">
+
 ---
 
 ## 🔗 Live Demo
