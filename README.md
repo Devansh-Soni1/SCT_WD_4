@@ -38,7 +38,7 @@ A responsive and interactive **To-Do List Application** built with **HTML, Tailw
 ---
 
 ## 🔗 Live Demo
-[GitHub Live preview](https://devansh-soni1.github.io/SCT_WD_4/src/)
+[GitHub Live preview](https://devansh-soni1.github.io/To-Do-List/src/)
 
 ---
 
