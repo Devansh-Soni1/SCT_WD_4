@@ -3,7 +3,12 @@
     const taskPriority = document.getElementById("taskPriority");
     const taskDesc = document.getElementById("taskDesc");
     const taskList = document.getElementById("taskList");
-
+    function changeColorCat() {
+      taskCategory.style.color = "black";
+    }
+    function changeColorPri() {
+      taskPriority.style.color = "black";
+    }
     // Load tasks from sessionStorage (only lasts until browser close)
     window.onload = () => {
       const saved = JSON.parse(sessionStorage.getItem("tasks")) || [];
