@@ -26,8 +26,8 @@
       <div class="flex gap-3">
         <div class="flex-1">
           <select id="taskCategory"
-            class="w-full px-3 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-teal-500 outline-none">
-            <option selected disabled class="text-gray-400">Category</option>
+            class="w-full px-3 py-2 text-gray-500 rounded-lg border border-gray-300 focus:ring-2 focus:ring-teal-500 outline-none">
+            <option selected disabled class="">Category</option>
             <option class="text-black">Work</option>
             <option class="text-black">Study</option>
             <option class="text-black">Personal</option>
@@ -35,8 +35,8 @@
         </div>
         <div class="flex-1">
           <select id="taskPriority"
-            class="w-full px-3 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-teal-500 outline-none">
-            <option selected disabled style="color: #9ca3af !important;">Priority</option>
+            class="w-full px-3 py-2 text-gray-500 rounded-lg border border-gray-300 focus:ring-2 focus:ring-teal-500 outline-none">
+            <option selected disabled>Priority</option>
             <option value="green" class="text-black">Low</option>
             <option value="yellow" class="text-black">Medium</option>
             <option value="red" class="text-black">High</option>
@@ -58,6 +58,7 @@
     <!-- Task List -->
     <ul id="taskList" class="mt-6 space-y-4"></ul>
   </div>
+  <script src="./script.js"></script>
 </body>
 
 </html>
